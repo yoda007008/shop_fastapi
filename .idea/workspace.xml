@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new dir routers">
+    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new requests in category and main">
+      <change afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722676350949</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new requests in category and main">
+      <option name="closed" value="true" />
+      <created>1722678025717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722678025718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +197,7 @@
     <MESSAGE value="Third commit" />
     <MESSAGE value="New file requirements.txt" />
     <MESSAGE value="new dir routers" />
-    <option name="LAST_COMMIT_MESSAGE" value="new dir routers" />
+    <MESSAGE value="new requests in category and main" />
+    <option name="LAST_COMMIT_MESSAGE" value="new requests in category and main" />
   </component>
 </project>
