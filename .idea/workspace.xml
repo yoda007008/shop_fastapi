@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new db.py and schemas.py" />
+    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new model in products.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,13 +74,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Кирилл/PycharmProjects/shop_fastapi/app/backend&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.products.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Кирилл/PycharmProjects/shop_fastapi/app/backend"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\app\backend" />
@@ -192,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722690126791</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new model in category.py">
+      <option name="closed" value="true" />
+      <created>1722783883685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722783883685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new model in products.py">
+      <option name="closed" value="true" />
+      <created>1722784452320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722784452320</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +234,8 @@
     <MESSAGE value="new dir routers" />
     <MESSAGE value="new requests in category and main" />
     <MESSAGE value="new db.py and schemas.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new db.py and schemas.py" />
+    <MESSAGE value="new model in category.py" />
+    <MESSAGE value="new model in products.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new model in products.py" />
   </component>
 </project>
