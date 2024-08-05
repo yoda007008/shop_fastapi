@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new file init.py">
+    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="run new model in products.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
@@ -281,6 +281,7 @@
     <MESSAGE value="new models" />
     <MESSAGE value="sql instruction" />
     <MESSAGE value="new file init.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new file init.py" />
+    <MESSAGE value="run new model in products.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="run new model in products.py" />
   </component>
 </project>
