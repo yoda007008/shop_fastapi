@@ -1,7 +1,7 @@
 from app.backend.db import Base
-from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Float
-from sqlalchemy.orm import relationship
-
+from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Float  # New
+from sqlalchemy.orm import relationship # New
+from app.models import *
 
 class Product(Base):
     __tablename__ = 'products'
@@ -13,9 +13,12 @@ class Product(Base):
     price = Column(Integer)
     image_url = Column(String)
     stock = Column(Integer)
+    category_id = Column(Integer, ForeignKey('categories.id')) # New
     rating = Column(Float)
     is_active = Column(Boolean, default=True)
-    category = relationship("Products", back_populates="products")
+
+    category = relationship('Category', back_populates='products') # New
 
 from sqlalchemy.schema import CreateTable
 print(CreateTable(Product.__table__))
+print(CreateTable(Category.__table__))
