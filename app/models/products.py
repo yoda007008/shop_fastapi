@@ -15,7 +15,7 @@ class Product(Base):
     stock = Column(Integer)
     rating = Column(Float)
     is_active = Column(Boolean, default=True)
-    category = relationship("Category", back_populates="products")
+    category = relationship("Products", back_populates="products")
 
 from sqlalchemy.schema import CreateTable
-print(CreateTable(Category.__table__))
+print(CreateTable(Product.__table__))
