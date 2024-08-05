@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new model in products.py" />
+    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new model in products.py">
+      <change afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +91,8 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\app\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi" />
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\app" />
+      <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi" />
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\readme_file" />
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\gitignore" />
     </key>
@@ -217,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722785994563</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new model in products.py">
+      <option name="closed" value="true" />
+      <created>1722786117430</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722786117430</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
