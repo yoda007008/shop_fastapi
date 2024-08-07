@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="run new model in products.py">
+    <list default="true" id="ebb2ef4a-6b8d-4d62-a948-47fd1a764a1d" name="Changes" comment="new db.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,15 +74,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.category.executor": "Run",
-    "Python.products.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Кирилл/PycharmProjects/shop_fastapi/app/backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.products.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Кирилл/PycharmProjects/shop_fastapi/app/backend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\shop_fastapi\app\backend" />
@@ -255,7 +255,47 @@
       <option name="project" value="LOCAL" />
       <updated>1722867742581</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="run new model in products.py">
+      <option name="closed" value="true" />
+      <created>1722868494958</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722868494958</updated>
+    </task>
+    <task id="LOCAL-00017" summary="run new model in products.py">
+      <option name="closed" value="true" />
+      <created>1722868526550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722868526550</updated>
+    </task>
+    <task id="LOCAL-00018" summary="new requirements.txt">
+      <option name="closed" value="true" />
+      <created>1722868650085</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722868650085</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new alembic files in project">
+      <option name="closed" value="true" />
+      <created>1722953663456</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722953663456</updated>
+    </task>
+    <task id="LOCAL-00020" summary="new db.py">
+      <option name="closed" value="true" />
+      <created>1722965410351</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722965410351</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +322,9 @@
     <MESSAGE value="sql instruction" />
     <MESSAGE value="new file init.py" />
     <MESSAGE value="run new model in products.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="run new model in products.py" />
+    <MESSAGE value="new requirements.txt" />
+    <MESSAGE value="new alembic files in project" />
+    <MESSAGE value="new db.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new db.py" />
   </component>
 </project>

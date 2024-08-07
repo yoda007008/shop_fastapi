@@ -19,6 +19,3 @@ class Product(Base):
 
     category = relationship('Category', back_populates='products') # New
 
-from sqlalchemy.schema import CreateTable
-print(CreateTable(Product.__table__))
-print(CreateTable(Category.__table__))
