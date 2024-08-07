@@ -10,6 +10,7 @@ class Category(Base):
     name = Column(String)
     slug = Column(String, unique=True, index=True)
     is_active = Column(Boolean, default=True)
+    primary_id = Column(Integer, primary_key=True, index=True)
 
     products = relationship("Products", back_populates="Category")  # New
 
